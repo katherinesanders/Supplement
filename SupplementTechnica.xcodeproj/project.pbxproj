@@ -1,0 +1,858 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		56C1E6F97527709277B61B5B /* Pods_SupplementTechnica_SupplementTechnicaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AB1523ABD38C76483706076 /* Pods_SupplementTechnica_SupplementTechnicaUITests.framework */; };
+		682D3F11D216D2388FF2C5F8 /* Pods_SupplementTechnica.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E65B267D39D198F3C48EC5AF /* Pods_SupplementTechnica.framework */; };
+		E10609362740A5A900029B88 /* HCQuizResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10609352740A5A900029B88 /* HCQuizResultsViewController.swift */; };
+		E10609382740C3DF00029B88 /* ProvidersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10609372740C3DF00029B88 /* ProvidersViewController.swift */; };
+		E144DFB02740612D0066E315 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E144DFAF2740612D0066E315 /* Constants.swift */; };
+		E144DFB2274070210066E315 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E144DFB1274070210066E315 /* GoogleService-Info.plist */; };
+		E144DFB427407A180066E315 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E144DFB327407A180066E315 /* HomeViewController.swift */; };
+		E144DFF7274080CC0066E315 /* HCQuizHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E144DFF6274080CC0066E315 /* HCQuizHomeViewController.swift */; };
+		E144DFF9274081490066E315 /* HCQuizFirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E144DFF8274081490066E315 /* HCQuizFirstViewController.swift */; };
+		E144DFFB274082FD0066E315 /* HCQuizSecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E144DFFA274082FD0066E315 /* HCQuizSecondViewController.swift */; };
+		E144DFFD2740830C0066E315 /* HCQuizThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E144DFFC2740830C0066E315 /* HCQuizThirdViewController.swift */; };
+		E144DFFF274090A60066E315 /* MainScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E144DFFE274090A60066E315 /* MainScreenViewController.swift */; };
+		E17065C92741341300AA001A /* TempLogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17065C82741341300AA001A /* TempLogInViewController.swift */; };
+		E17065CB2741389700AA001A /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E17065CA2741389700AA001A /* TabBarController.swift */; };
+		E19B73FF2740498000C5B95C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19B73FE2740498000C5B95C /* AppDelegate.swift */; };
+		E19B74012740498000C5B95C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19B74002740498000C5B95C /* SceneDelegate.swift */; };
+		E19B74032740498000C5B95C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19B74022740498000C5B95C /* ViewController.swift */; };
+		E19B74062740498000C5B95C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E19B74042740498000C5B95C /* Main.storyboard */; };
+		E19B74092740498000C5B95C /* SupplementTechnica.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E19B74072740498000C5B95C /* SupplementTechnica.xcdatamodeld */; };
+		E19B740B2740498400C5B95C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E19B740A2740498400C5B95C /* Assets.xcassets */; };
+		E19B740E2740498400C5B95C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E19B740C2740498400C5B95C /* LaunchScreen.storyboard */; };
+		E19B74192740498400C5B95C /* SupplementTechnicaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19B74182740498400C5B95C /* SupplementTechnicaTests.swift */; };
+		E19B74232740498400C5B95C /* SupplementTechnicaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19B74222740498400C5B95C /* SupplementTechnicaUITests.swift */; };
+		E19B74252740498400C5B95C /* SupplementTechnicaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19B74242740498400C5B95C /* SupplementTechnicaUITestsLaunchTests.swift */; };
+		E19B7432274049C400C5B95C /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19B7431274049C400C5B95C /* LogInViewController.swift */; };
+		E19B7434274049D100C5B95C /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19B7433274049D100C5B95C /* SignUpViewController.swift */; };
+		E19B7436274049E100C5B95C /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19B7435274049E100C5B95C /* WelcomeViewController.swift */; };
+		E19B743827404BD800C5B95C /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19B743727404BD800C5B95C /* Utilities.swift */; };
+		F65E432DFE64E0692901A23D /* Pods_SupplementTechnicaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66E2E9F28375A8A776AE3A46 /* Pods_SupplementTechnicaTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E19B74152740498400C5B95C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E19B73F32740498000C5B95C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E19B73FA2740498000C5B95C;
+			remoteInfo = SupplementTechnica;
+		};
+		E19B741F2740498400C5B95C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E19B73F32740498000C5B95C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E19B73FA2740498000C5B95C;
+			remoteInfo = SupplementTechnica;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A5C8C810A35E1F58A32B47B /* Pods-SupplementTechnica.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SupplementTechnica.release.xcconfig"; path = "Target Support Files/Pods-SupplementTechnica/Pods-SupplementTechnica.release.xcconfig"; sourceTree = "<group>"; };
+		66E2E9F28375A8A776AE3A46 /* Pods_SupplementTechnicaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SupplementTechnicaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AB1523ABD38C76483706076 /* Pods_SupplementTechnica_SupplementTechnicaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SupplementTechnica_SupplementTechnicaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C13AE01ECB841CBF2D33471 /* Pods-SupplementTechnica-SupplementTechnicaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SupplementTechnica-SupplementTechnicaUITests.release.xcconfig"; path = "Target Support Files/Pods-SupplementTechnica-SupplementTechnicaUITests/Pods-SupplementTechnica-SupplementTechnicaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6E276580BF71A462428F5B6B /* Pods-SupplementTechnicaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SupplementTechnicaTests.debug.xcconfig"; path = "Target Support Files/Pods-SupplementTechnicaTests/Pods-SupplementTechnicaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		88A8E5AEFD6E2C0F11EBFE25 /* Pods-SupplementTechnica.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SupplementTechnica.debug.xcconfig"; path = "Target Support Files/Pods-SupplementTechnica/Pods-SupplementTechnica.debug.xcconfig"; sourceTree = "<group>"; };
+		A3FE2917FE8C605925C9711E /* Pods-SupplementTechnica-SupplementTechnicaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SupplementTechnica-SupplementTechnicaUITests.debug.xcconfig"; path = "Target Support Files/Pods-SupplementTechnica-SupplementTechnicaUITests/Pods-SupplementTechnica-SupplementTechnicaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A4EF82D84A0E3F2596BD76F6 /* Pods-SupplementTechnicaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SupplementTechnicaTests.release.xcconfig"; path = "Target Support Files/Pods-SupplementTechnicaTests/Pods-SupplementTechnicaTests.release.xcconfig"; sourceTree = "<group>"; };
+		E10609352740A5A900029B88 /* HCQuizResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCQuizResultsViewController.swift; sourceTree = "<group>"; };
+		E10609372740C3DF00029B88 /* ProvidersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProvidersViewController.swift; sourceTree = "<group>"; };
+		E144DFAF2740612D0066E315 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		E144DFB1274070210066E315 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E144DFB327407A180066E315 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		E144DFF6274080CC0066E315 /* HCQuizHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCQuizHomeViewController.swift; sourceTree = "<group>"; };
+		E144DFF8274081490066E315 /* HCQuizFirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCQuizFirstViewController.swift; sourceTree = "<group>"; };
+		E144DFFA274082FD0066E315 /* HCQuizSecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCQuizSecondViewController.swift; sourceTree = "<group>"; };
+		E144DFFC2740830C0066E315 /* HCQuizThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HCQuizThirdViewController.swift; sourceTree = "<group>"; };
+		E144DFFE274090A60066E315 /* MainScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenViewController.swift; sourceTree = "<group>"; };
+		E17065C82741341300AA001A /* TempLogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TempLogInViewController.swift; sourceTree = "<group>"; };
+		E17065CA2741389700AA001A /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		E19B73FB2740498000C5B95C /* SupplementTechnica.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SupplementTechnica.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E19B73FE2740498000C5B95C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E19B74002740498000C5B95C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E19B74022740498000C5B95C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E19B74052740498000C5B95C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E19B74082740498000C5B95C /* SupplementTechnica.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SupplementTechnica.xcdatamodel; sourceTree = "<group>"; };
+		E19B740A2740498400C5B95C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E19B740D2740498400C5B95C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E19B740F2740498400C5B95C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E19B74142740498400C5B95C /* SupplementTechnicaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SupplementTechnicaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E19B74182740498400C5B95C /* SupplementTechnicaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupplementTechnicaTests.swift; sourceTree = "<group>"; };
+		E19B741E2740498400C5B95C /* SupplementTechnicaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SupplementTechnicaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E19B74222740498400C5B95C /* SupplementTechnicaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupplementTechnicaUITests.swift; sourceTree = "<group>"; };
+		E19B74242740498400C5B95C /* SupplementTechnicaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupplementTechnicaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E19B7431274049C400C5B95C /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		E19B7433274049D100C5B95C /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		E19B7435274049E100C5B95C /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		E19B743727404BD800C5B95C /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		E65B267D39D198F3C48EC5AF /* Pods_SupplementTechnica.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SupplementTechnica.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E19B73F82740498000C5B95C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				682D3F11D216D2388FF2C5F8 /* Pods_SupplementTechnica.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E19B74112740498400C5B95C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F65E432DFE64E0692901A23D /* Pods_SupplementTechnicaTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E19B741B2740498400C5B95C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56C1E6F97527709277B61B5B /* Pods_SupplementTechnica_SupplementTechnicaUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		91A53EC64F317BC710A341B6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				88A8E5AEFD6E2C0F11EBFE25 /* Pods-SupplementTechnica.debug.xcconfig */,
+				0A5C8C810A35E1F58A32B47B /* Pods-SupplementTechnica.release.xcconfig */,
+				A3FE2917FE8C605925C9711E /* Pods-SupplementTechnica-SupplementTechnicaUITests.debug.xcconfig */,
+				6C13AE01ECB841CBF2D33471 /* Pods-SupplementTechnica-SupplementTechnicaUITests.release.xcconfig */,
+				6E276580BF71A462428F5B6B /* Pods-SupplementTechnicaTests.debug.xcconfig */,
+				A4EF82D84A0E3F2596BD76F6 /* Pods-SupplementTechnicaTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D8AE2C529FC5176A65CA59C7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E65B267D39D198F3C48EC5AF /* Pods_SupplementTechnica.framework */,
+				6AB1523ABD38C76483706076 /* Pods_SupplementTechnica_SupplementTechnicaUITests.framework */,
+				66E2E9F28375A8A776AE3A46 /* Pods_SupplementTechnicaTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E19B73F22740498000C5B95C = {
+			isa = PBXGroup;
+			children = (
+				E19B73FD2740498000C5B95C /* SupplementTechnica */,
+				E19B74172740498400C5B95C /* SupplementTechnicaTests */,
+				E19B74212740498400C5B95C /* SupplementTechnicaUITests */,
+				E19B73FC2740498000C5B95C /* Products */,
+				91A53EC64F317BC710A341B6 /* Pods */,
+				D8AE2C529FC5176A65CA59C7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E19B73FC2740498000C5B95C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E19B73FB2740498000C5B95C /* SupplementTechnica.app */,
+				E19B74142740498400C5B95C /* SupplementTechnicaTests.xctest */,
+				E19B741E2740498400C5B95C /* SupplementTechnicaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E19B73FD2740498000C5B95C /* SupplementTechnica */ = {
+			isa = PBXGroup;
+			children = (
+				E144DFB327407A180066E315 /* HomeViewController.swift */,
+				E19B73FE2740498000C5B95C /* AppDelegate.swift */,
+				E19B74002740498000C5B95C /* SceneDelegate.swift */,
+				E19B74022740498000C5B95C /* ViewController.swift */,
+				E144DFF6274080CC0066E315 /* HCQuizHomeViewController.swift */,
+				E19B74042740498000C5B95C /* Main.storyboard */,
+				E17065CA2741389700AA001A /* TabBarController.swift */,
+				E19B740A2740498400C5B95C /* Assets.xcassets */,
+				E19B740C2740498400C5B95C /* LaunchScreen.storyboard */,
+				E19B740F2740498400C5B95C /* Info.plist */,
+				E19B74072740498000C5B95C /* SupplementTechnica.xcdatamodeld */,
+				E19B7431274049C400C5B95C /* LogInViewController.swift */,
+				E19B7433274049D100C5B95C /* SignUpViewController.swift */,
+				E19B7435274049E100C5B95C /* WelcomeViewController.swift */,
+				E19B743727404BD800C5B95C /* Utilities.swift */,
+				E144DFB1274070210066E315 /* GoogleService-Info.plist */,
+				E144DFAF2740612D0066E315 /* Constants.swift */,
+				E144DFF8274081490066E315 /* HCQuizFirstViewController.swift */,
+				E144DFFA274082FD0066E315 /* HCQuizSecondViewController.swift */,
+				E144DFFC2740830C0066E315 /* HCQuizThirdViewController.swift */,
+				E144DFFE274090A60066E315 /* MainScreenViewController.swift */,
+				E10609352740A5A900029B88 /* HCQuizResultsViewController.swift */,
+				E10609372740C3DF00029B88 /* ProvidersViewController.swift */,
+				E17065C82741341300AA001A /* TempLogInViewController.swift */,
+			);
+			path = SupplementTechnica;
+			sourceTree = "<group>";
+		};
+		E19B74172740498400C5B95C /* SupplementTechnicaTests */ = {
+			isa = PBXGroup;
+			children = (
+				E19B74182740498400C5B95C /* SupplementTechnicaTests.swift */,
+			);
+			path = SupplementTechnicaTests;
+			sourceTree = "<group>";
+		};
+		E19B74212740498400C5B95C /* SupplementTechnicaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E19B74222740498400C5B95C /* SupplementTechnicaUITests.swift */,
+				E19B74242740498400C5B95C /* SupplementTechnicaUITestsLaunchTests.swift */,
+			);
+			path = SupplementTechnicaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E19B73FA2740498000C5B95C /* SupplementTechnica */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E19B74282740498400C5B95C /* Build configuration list for PBXNativeTarget "SupplementTechnica" */;
+			buildPhases = (
+				FE271AB427B9A7F43760B852 /* [CP] Check Pods Manifest.lock */,
+				E19B73F72740498000C5B95C /* Sources */,
+				E19B73F82740498000C5B95C /* Frameworks */,
+				E19B73F92740498000C5B95C /* Resources */,
+				7DC6F5035AAAFFCCA4CB9FCE /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SupplementTechnica;
+			productName = SupplementTechnica;
+			productReference = E19B73FB2740498000C5B95C /* SupplementTechnica.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E19B74132740498400C5B95C /* SupplementTechnicaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E19B742B2740498400C5B95C /* Build configuration list for PBXNativeTarget "SupplementTechnicaTests" */;
+			buildPhases = (
+				CCCC46A8C9AFCE95E4E3E212 /* [CP] Check Pods Manifest.lock */,
+				E19B74102740498400C5B95C /* Sources */,
+				E19B74112740498400C5B95C /* Frameworks */,
+				E19B74122740498400C5B95C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E19B74162740498400C5B95C /* PBXTargetDependency */,
+			);
+			name = SupplementTechnicaTests;
+			productName = SupplementTechnicaTests;
+			productReference = E19B74142740498400C5B95C /* SupplementTechnicaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E19B741D2740498400C5B95C /* SupplementTechnicaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E19B742E2740498400C5B95C /* Build configuration list for PBXNativeTarget "SupplementTechnicaUITests" */;
+			buildPhases = (
+				83C5E1C67381C1583CE0129B /* [CP] Check Pods Manifest.lock */,
+				E19B741A2740498400C5B95C /* Sources */,
+				E19B741B2740498400C5B95C /* Frameworks */,
+				E19B741C2740498400C5B95C /* Resources */,
+				86E5E89DEA7170C9BED4070C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E19B74202740498400C5B95C /* PBXTargetDependency */,
+			);
+			name = SupplementTechnicaUITests;
+			productName = SupplementTechnicaUITests;
+			productReference = E19B741E2740498400C5B95C /* SupplementTechnicaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E19B73F32740498000C5B95C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					E19B73FA2740498000C5B95C = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					E19B74132740498400C5B95C = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = E19B73FA2740498000C5B95C;
+					};
+					E19B741D2740498400C5B95C = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = E19B73FA2740498000C5B95C;
+					};
+				};
+			};
+			buildConfigurationList = E19B73F62740498000C5B95C /* Build configuration list for PBXProject "SupplementTechnica" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E19B73F22740498000C5B95C;
+			productRefGroup = E19B73FC2740498000C5B95C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E19B73FA2740498000C5B95C /* SupplementTechnica */,
+				E19B74132740498400C5B95C /* SupplementTechnicaTests */,
+				E19B741D2740498400C5B95C /* SupplementTechnicaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E19B73F92740498000C5B95C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E19B740E2740498400C5B95C /* LaunchScreen.storyboard in Resources */,
+				E19B740B2740498400C5B95C /* Assets.xcassets in Resources */,
+				E144DFB2274070210066E315 /* GoogleService-Info.plist in Resources */,
+				E19B74062740498000C5B95C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E19B74122740498400C5B95C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E19B741C2740498400C5B95C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7DC6F5035AAAFFCCA4CB9FCE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SupplementTechnica/Pods-SupplementTechnica-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SupplementTechnica/Pods-SupplementTechnica-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SupplementTechnica/Pods-SupplementTechnica-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		83C5E1C67381C1583CE0129B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SupplementTechnica-SupplementTechnicaUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		86E5E89DEA7170C9BED4070C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SupplementTechnica-SupplementTechnicaUITests/Pods-SupplementTechnica-SupplementTechnicaUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SupplementTechnica-SupplementTechnicaUITests/Pods-SupplementTechnica-SupplementTechnicaUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SupplementTechnica-SupplementTechnicaUITests/Pods-SupplementTechnica-SupplementTechnicaUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CCCC46A8C9AFCE95E4E3E212 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SupplementTechnicaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE271AB427B9A7F43760B852 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SupplementTechnica-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E19B73F72740498000C5B95C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E19B7434274049D100C5B95C /* SignUpViewController.swift in Sources */,
+				E19B74032740498000C5B95C /* ViewController.swift in Sources */,
+				E17065C92741341300AA001A /* TempLogInViewController.swift in Sources */,
+				E19B73FF2740498000C5B95C /* AppDelegate.swift in Sources */,
+				E10609362740A5A900029B88 /* HCQuizResultsViewController.swift in Sources */,
+				E19B74012740498000C5B95C /* SceneDelegate.swift in Sources */,
+				E144DFFD2740830C0066E315 /* HCQuizThirdViewController.swift in Sources */,
+				E144DFFF274090A60066E315 /* MainScreenViewController.swift in Sources */,
+				E144DFFB274082FD0066E315 /* HCQuizSecondViewController.swift in Sources */,
+				E19B7432274049C400C5B95C /* LogInViewController.swift in Sources */,
+				E17065CB2741389700AA001A /* TabBarController.swift in Sources */,
+				E144DFB427407A180066E315 /* HomeViewController.swift in Sources */,
+				E144DFF7274080CC0066E315 /* HCQuizHomeViewController.swift in Sources */,
+				E19B74092740498000C5B95C /* SupplementTechnica.xcdatamodeld in Sources */,
+				E19B743827404BD800C5B95C /* Utilities.swift in Sources */,
+				E144DFF9274081490066E315 /* HCQuizFirstViewController.swift in Sources */,
+				E19B7436274049E100C5B95C /* WelcomeViewController.swift in Sources */,
+				E10609382740C3DF00029B88 /* ProvidersViewController.swift in Sources */,
+				E144DFB02740612D0066E315 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E19B74102740498400C5B95C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E19B74192740498400C5B95C /* SupplementTechnicaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E19B741A2740498400C5B95C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E19B74252740498400C5B95C /* SupplementTechnicaUITestsLaunchTests.swift in Sources */,
+				E19B74232740498400C5B95C /* SupplementTechnicaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E19B74162740498400C5B95C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E19B73FA2740498000C5B95C /* SupplementTechnica */;
+			targetProxy = E19B74152740498400C5B95C /* PBXContainerItemProxy */;
+		};
+		E19B74202740498400C5B95C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E19B73FA2740498000C5B95C /* SupplementTechnica */;
+			targetProxy = E19B741F2740498400C5B95C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E19B74042740498000C5B95C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E19B74052740498000C5B95C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E19B740C2740498400C5B95C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E19B740D2740498400C5B95C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E19B74262740498400C5B95C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E19B74272740498400C5B95C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E19B74292740498400C5B95C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88A8E5AEFD6E2C0F11EBFE25 /* Pods-SupplementTechnica.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SupplementTechnica/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = katherinesanders.SupplementTechnica;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E19B742A2740498400C5B95C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A5C8C810A35E1F58A32B47B /* Pods-SupplementTechnica.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SupplementTechnica/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = katherinesanders.SupplementTechnica;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E19B742C2740498400C5B95C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E276580BF71A462428F5B6B /* Pods-SupplementTechnicaTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = katherinesanders.SupplementTechnicaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SupplementTechnica.app/SupplementTechnica";
+			};
+			name = Debug;
+		};
+		E19B742D2740498400C5B95C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4EF82D84A0E3F2596BD76F6 /* Pods-SupplementTechnicaTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = katherinesanders.SupplementTechnicaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SupplementTechnica.app/SupplementTechnica";
+			};
+			name = Release;
+		};
+		E19B742F2740498400C5B95C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3FE2917FE8C605925C9711E /* Pods-SupplementTechnica-SupplementTechnicaUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = katherinesanders.SupplementTechnicaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SupplementTechnica;
+			};
+			name = Debug;
+		};
+		E19B74302740498400C5B95C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C13AE01ECB841CBF2D33471 /* Pods-SupplementTechnica-SupplementTechnicaUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = katherinesanders.SupplementTechnicaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SupplementTechnica;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E19B73F62740498000C5B95C /* Build configuration list for PBXProject "SupplementTechnica" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E19B74262740498400C5B95C /* Debug */,
+				E19B74272740498400C5B95C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E19B74282740498400C5B95C /* Build configuration list for PBXNativeTarget "SupplementTechnica" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E19B74292740498400C5B95C /* Debug */,
+				E19B742A2740498400C5B95C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E19B742B2740498400C5B95C /* Build configuration list for PBXNativeTarget "SupplementTechnicaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E19B742C2740498400C5B95C /* Debug */,
+				E19B742D2740498400C5B95C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E19B742E2740498400C5B95C /* Build configuration list for PBXNativeTarget "SupplementTechnicaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E19B742F2740498400C5B95C /* Debug */,
+				E19B74302740498400C5B95C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E19B74072740498000C5B95C /* SupplementTechnica.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E19B74082740498000C5B95C /* SupplementTechnica.xcdatamodel */,
+			);
+			currentVersion = E19B74082740498000C5B95C /* SupplementTechnica.xcdatamodel */;
+			path = SupplementTechnica.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E19B73F32740498000C5B95C /* Project object */;
+}
